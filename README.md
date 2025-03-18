@@ -1,4 +1,4 @@
-![caption_42](https://github.com/user-attachments/assets/2e4ca79a-0598-4859-8e03-1c6a2b9c3bb4)# DIF-DLNet 图像描述生成项目
+# DIF-DLNet 图像描述生成项目
 
 ## 主要改进
 
@@ -28,15 +28,15 @@ python attvis
 
 ## 模型下载
 百度网盘链接：
-- 模型权重、Loss曲线：[DIFNetPro_best.pth]([https://pan.baidu.com/s/1abc123def456ghi789jklmn](https://pan.baidu.com/s/1lhIunoMCOC7pYwPARqqXtg?pwd=ktwq)) 提取码：ktwq
+- 模型权重、Loss曲线：通过网盘分享的文件：output
+链接: https://pan.baidu.com/s/1lhIunoMCOC7pYwPARqqXtg?pwd=ktwq 提取码: ktwq 
+--来自百度网盘超级会员v1的分享
 
 ## 可视化示例:本文方法
-![Attention Heatmap](docs/![caption_42](https://github.com/user-attachments/assets/98c26fd0-9d37-437a-af37-aaec1e293dbd)
-)
+![caption_42](https://github.com/user-attachments/assets/2e4ca79a-0598-4859-8e03-1c6a2b9c3bb4)
 
 ## 可视化示例：原文权重
-![Attention Heatmap](docs/![caption_42](![caption_42](https://github.com/user-attachments/assets/4c69d0b2-873d-4b99-8756-0604d4b8ed6a)
-)
+![caption_42](https://github.com/user-attachments/assets/4c69d0b2-873d-4b99-8756-0604d4b8ed6a)
 
 
 ## 技术细节
