@@ -1,0 +1,52 @@
+E:\project_pycharm\deepLora\.venv\Scripts\python.exe E:\project_pycharm\difDLnet\train_pro.py
+Namespace(exp_name='DIFNetpro', batch_size=50, workers=0, m=40, head=8, warmup=10000, resume_last=False, resume_best=False, features_path='D:/BaiduNetdiskDownload/coco_grid_feats/combined_detections.hdf5', region_path='D:/BaiduNetdiskDownload/aaai21_DLCT/coco_all_align/coco_all_align.hdf5', pixel_path='dataset/segmentations', annotation_folder='dataset/annotations', logs_folder='./output/tensorboard_logs', model_path='./output/saved_transformer_models', mode='difnet_PRO')
+Transformer Training
+Loading from vocabulary
+s: 0
+Training starts
+s: 1
+E:\project_pycharm\deepLora\.venv\Lib\site-packages\torch\optim\lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+Epoch 0 - train: 100%|██████████| 11328/11328 [1:55:00<00:00,  1.64it/s, loss=3.47]
+Epoch 0 - validation: 100%|██████████| 500/500 [04:29<00:00,  1.86it/s, loss=2.84]
+Epoch 0 - evaluation: 100%|██████████| 500/500 [01:43<00:00,  4.81it/s]
+Epoch 0 - evaluation:   0%|          | 0/500 [00:00<?, ?it/s]Validation scores {'BLEU': [0.721862528404224, 0.5618386132893568, 0.42123425494873884, 0.3105415760266707], 'METEOR': 0.243355839713032, 'ROUGE': 0.5328159694457114, 'CIDEr': 0.9160251623070359}
+Epoch 0 - evaluation: 100%|██████████| 500/500 [01:48<00:00,  4.62it/s]
+Test scores {'BLEU': [0.7174511262517608, 0.5547705181543225, 0.41441745182314665, 0.30327087757516946], 'METEOR': 0.24101378659913852, 'ROUGE': 0.5292421783760339, 'CIDEr': 0.9092425416396871}
+Epoch 1 - train:   0%|          | 0/11328 [00:00<?, ?it/s]s: 2
+Epoch 1 - train: 100%|██████████| 11328/11328 [1:46:39<00:00,  1.77it/s, loss=nan]
+Epoch 1 - validation: 100%|██████████| 500/500 [04:24<00:00,  1.89it/s, loss=2.53]
+Epoch 1 - evaluation: 100%|██████████| 500/500 [01:44<00:00,  4.77it/s]
+Validation scores {'BLEU': [0.7537577708249273, 0.5972501318156811, 0.45554676430770585, 0.3455594314996679], 'METEOR': 0.2603168982448123, 'ROUGE': 0.5525503973395843, 'CIDEr': 1.0631597654490421}
+Epoch 1 - evaluation: 100%|██████████| 500/500 [01:48<00:00,  4.61it/s]
+Test scores {'BLEU': [0.7527004307503469, 0.5936087027652384, 0.45096273699344025, 0.3394655831761481], 'METEOR': 0.2586950727969456, 'ROUGE': 0.5502814170014936, 'CIDEr': 1.0534002841372403}
+s: 3
+Epoch 2 - train: 100%|██████████| 11328/11328 [1:48:09<00:00,  1.75it/s, loss=nan]
+Epoch 2 - validation: 100%|██████████| 500/500 [04:27<00:00,  1.87it/s, loss=2.41]
+Epoch 2 - evaluation: 100%|██████████| 500/500 [01:43<00:00,  4.85it/s]
+Epoch 2 - evaluation:   0%|          | 0/500 [00:00<?, ?it/s]Validation scores {'BLEU': [0.7507011430369379, 0.5966702099380985, 0.4579377015248494, 0.34897546962112663], 'METEOR': 0.26629462096568934, 'ROUGE': 0.5538555029767085, 'CIDEr': 1.0878628001699098}
+Epoch 2 - evaluation: 100%|██████████| 500/500 [01:48<00:00,  4.60it/s]
+Test scores {'BLEU': [0.7491453815162589, 0.5922454404587646, 0.45365933459650737, 0.34452454152924356], 'METEOR': 0.26478218190008107, 'ROUGE': 0.5521449544182089, 'CIDEr': 1.0978818918331001}
+Epoch 3 - train:   0%|          | 0/11328 [00:00<?, ?it/s]s: 4
+Epoch 3 - train: 100%|██████████| 11328/11328 [1:48:04<00:00,  1.75it/s, loss=nan]
+Epoch 3 - validation: 100%|██████████| 500/500 [04:28<00:00,  1.86it/s, loss=2.34]
+Epoch 3 - evaluation: 100%|██████████| 500/500 [01:42<00:00,  4.86it/s]
+Epoch 3 - evaluation:   0%|          | 0/500 [00:00<?, ?it/s]Validation scores {'BLEU': [0.762946221040147, 0.6059214537886577, 0.46647982480635186, 0.3566889166095664], 'METEOR': 0.27144030284454584, 'ROUGE': 0.5633668988141682, 'CIDEr': 1.1113206363256216}
+Epoch 3 - evaluation: 100%|██████████| 500/500 [01:47<00:00,  4.64it/s]
+Test scores {'BLEU': [0.7615038825735223, 0.5998606456971598, 0.45941996239775906, 0.350251179309922], 'METEOR': 0.26991674711575975, 'ROUGE': 0.5578982818599074, 'CIDEr': 1.1130520564735267}
+Epoch 4 - train:   0%|          | 0/11328 [00:00<?, ?it/s]s: 5
+Epoch 4 - train: 100%|██████████| 11328/11328 [1:48:14<00:00,  1.74it/s, loss=nan]
+Epoch 4 - validation: 100%|██████████| 500/500 [04:27<00:00,  1.87it/s, loss=2.3]
+Epoch 4 - evaluation: 100%|██████████| 500/500 [01:43<00:00,  4.83it/s]
+Validation scores {'BLEU': [0.7506640996407415, 0.5896469583182968, 0.4518217190100621, 0.346655830200109], 'METEOR': 0.2705745557245805, 'ROUGE': 0.5557825465814725, 'CIDEr': 1.0993349477980332}
+Epoch 4 - evaluation: 100%|██████████| 500/500 [01:47<00:00,  4.66it/s]
+Test scores {'BLEU': [0.7503218026141432, 0.5908057120111763, 0.4547108653967562, 0.34938169062515717], 'METEOR': 0.2718616011958691, 'ROUGE': 0.5568707943727311, 'CIDEr': 1.1172755337712679}
+s: 6
+Epoch 5 - train: 100%|██████████| 11328/11328 [1:48:17<00:00,  1.74it/s, loss=nan]
+Epoch 5 - validation: 100%|██████████| 500/500 [04:28<00:00,  1.86it/s, loss=2.26]
+Epoch 5 - evaluation: 100%|██████████| 500/500 [01:43<00:00,  4.85it/s]
+Validation scores {'BLEU': [0.7565971047176069, 0.5970745732295809, 0.4599967428216285, 0.3538931660465296], 'METEOR': 0.27492480161461874, 'ROUGE': 0.562371321081961, 'CIDEr': 1.1237974873715268}
+Epoch 5 - evaluation: 100%|██████████| 500/500 [01:47<00:00,  4.63it/s]
+Test scores {'BLEU': [0.7580189941676674, 0.5981389851077081, 0.4607114400104539, 0.35511735691049845], 'METEOR': 0.27505436029982455, 'ROUGE': 0.5623411685874413, 'CIDEr': 1.1382151087372796}
+s: 7
+Epoch 6 - train: 100%|██████████| 11328/11328 [1:48:20<00:00,  1.74it/s, loss=nan]
